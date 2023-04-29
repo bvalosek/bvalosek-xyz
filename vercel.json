@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [ { "type": "host", "value": "bvalosek.com" } ],
+      "destination": "https://bvalosek.xyz/$1",
+      "statusCode": 301
+    }
+  ]
+}
