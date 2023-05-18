@@ -184,7 +184,7 @@ export default function IndexPage() {
               </Box>
             </Box>
             <Box>
-              <Link isExternal href="https://morphs.wtf/" fontSize="lg">
+              <Link isExternal href="https://developers.boardroom.io/" fontSize="lg">
                 boardroom
               </Link>{' '}
               - governance aggregation and interop
