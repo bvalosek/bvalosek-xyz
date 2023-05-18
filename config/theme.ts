@@ -5,6 +5,13 @@ const config: ThemeConfig = {
 };
 
 const overrides: ThemeOverride = {
+  styles: {
+    global: {
+      body: {
+        bg: 'blue',
+      },
+    },
+  },
   components: {
     Link: {
       baseStyle: {
