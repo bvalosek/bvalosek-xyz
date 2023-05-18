@@ -219,11 +219,13 @@ export default function IndexPage() {
               </Box>
             </Box>
           </Stack>
-          <Text fontFamily="mono" fontSize="xs" textAlign="right">
-            did:mld:k3kw76syyfivtxedl34fw3ja
-            <br />
-            did:plc:rhq6wagcwtaehl7uddekfcps
-          </Text>
+          <Stack>
+            <Text fontFamily="mono" fontSize="xs" textAlign="right" mt={20} mb={20}>
+              did:mld:k3kw76syyfivtxedl34fw3ja
+              <br />
+              did:plc:rhq6wagcwtaehl7uddekfcps
+            </Text>
+          </Stack>
         </Stack>
       </Container>
     </>
