@@ -5,10 +5,10 @@ export default function IndexPage() {
     <>
       <Container mt={10}>
         <Stack>
-          <Link href="https://bvalosek.xyz" fontSize="sm">
+          <Link href="https://bvalosek.xyz" fontSize="md">
             bvalosek.xyz
           </Link>
-          <Text>
+          <Text pt={4}>
             <strong>Brandon</strong> is a software architect and technologist in Austin
           </Text>
           <Text>
@@ -30,10 +30,10 @@ export default function IndexPage() {
               twitter
             </Link>
           </Stack>
-          <Text>RECENT WORK</Text>
-          <Stack fontSize="sm">
+          <Text pt={4}>RECENT WORK</Text>
+          <Stack fontSize="md">
             <Box>
-              <Link isExternal href="https://metalabel.xyz" fontSize="md">
+              <Link isExternal href="https://metalabel.xyz" fontSize="lg">
                 metalabel protocol
               </Link>{' '}
               cataloging hyperstructure and record minting protocol
@@ -63,7 +63,7 @@ export default function IndexPage() {
               </Box>
             </Box>
             <Box>
-              <Link isExternal href="https://morphs.wtf/" fontSize="md">
+              <Link isExternal href="https://morphs.wtf/" fontSize="lg">
                 morphs
               </Link>{' '}
               open NFT project set in a science fantasy universe
@@ -79,7 +79,7 @@ export default function IndexPage() {
               </Box>
             </Box>
             <Box>
-              <Link isExternal href="https://heyshell.xyz/" fontSize="md">
+              <Link isExternal href="https://heyshell.xyz/" fontSize="lg">
                 heyshell
               </Link>{' '}
               operating system for NFTs apps implementing open products
@@ -116,7 +116,7 @@ export default function IndexPage() {
             </Box>
 
             <Box>
-              <Link isExternal href="https://hypervibes.xyz" fontSize="md">
+              <Link isExternal href="https://hypervibes.xyz" fontSize="lg">
                 hypervibes
               </Link>{' '}
               generalized public version of the VIBES protocol
@@ -146,7 +146,7 @@ export default function IndexPage() {
               <Link
                 isExternal
                 href="https://r-group.notion.site/GROUP-fc0ab00297b348aba76ce8d378386a9e"
-                fontSize="md"
+                fontSize="lg"
               >
                 r group
               </Link>{' '}
@@ -160,7 +160,7 @@ export default function IndexPage() {
             </Box>
 
             <Box>
-              <Link isExternal href="https://sickvibes.xyz" fontSize="md">
+              <Link isExternal href="https://sickvibes.xyz" fontSize="lg">
                 vibes
               </Link>{' '}
               decentralized token-based art curation protocol
@@ -181,7 +181,7 @@ export default function IndexPage() {
               </Box>
             </Box>
             <Box>
-              <Link isExternal href="https://morphs.wtf/" fontSize="md">
+              <Link isExternal href="https://morphs.wtf/" fontSize="lg">
                 boardroom
               </Link>{' '}
               - governance aggregation and interop
@@ -204,7 +204,7 @@ export default function IndexPage() {
               </Box>
             </Box>
             <Box>
-              <Link isExternal href="https://outbanders.com" fontSize="md">
+              <Link isExternal href="https://outbanders.com" fontSize="lg">
                 outbanders
               </Link>{' '}
               emergent patterns ep
@@ -219,7 +219,7 @@ export default function IndexPage() {
               <Link
                 isExternal
                 href="https://developers.yonomi.com/docs/yonomi-iot-platform/"
-                fontSize="md"
+                fontSize="lg"
               >
                 yonomi iot platform
               </Link>{' '}
@@ -236,7 +236,7 @@ export default function IndexPage() {
               </Box>
             </Box>
           </Stack>
-          <Stack>
+          <Stack color="yellow">
             <Text fontFamily="mono" fontSize="xs" textAlign="right" mt={20} mb={20}>
               did:mld:k3kw76syyfivtxedl34fw3ja
               <br />

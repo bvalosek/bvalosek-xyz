@@ -8,14 +8,18 @@ const overrides: ThemeOverride = {
   styles: {
     global: {
       body: {
-        bg: 'blue',
+        fontSize: '20px',
+        bg: 'black',
+        color: 'white',
+        fontWeight: '400',
       },
     },
   },
   components: {
     Link: {
       baseStyle: {
-        fontWeight: 'bold',
+        fontWeight: '700',
+        color: '#8ff',
       },
     },
   },
