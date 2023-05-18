@@ -33,10 +33,10 @@ export default function IndexPage() {
           <Text>RECENT WORK</Text>
           <Stack fontSize="sm">
             <Box>
-              <Link isExternal href="https://metalabel.xyz">
+              <Link isExternal href="https://metalabel.xyz" fontSize="md">
                 metalabel protocol
               </Link>{' '}
-              - cataloging hyperstructure and record minting protocol
+              cataloging hyperstructure and record minting protocol
               <br />
               <Box opacity={0.5}>
                 <Link
@@ -63,10 +63,10 @@ export default function IndexPage() {
               </Box>
             </Box>
             <Box>
-              <Link isExternal href="https://morphs.wtf/">
+              <Link isExternal href="https://morphs.wtf/" fontSize="md">
                 morphs
               </Link>{' '}
-              - open NFT project set in a science fantasy universe
+              open NFT project set in a science fantasy universe
               <br />
               <Box opacity={0.5}>
                 <Link
@@ -79,10 +79,10 @@ export default function IndexPage() {
               </Box>
             </Box>
             <Box>
-              <Link isExternal href="https://heyshell.xyz/">
+              <Link isExternal href="https://heyshell.xyz/" fontSize="md">
                 heyshell
               </Link>{' '}
-              - operating system for NFTs apps implementing open products
+              operating system for NFTs apps implementing open products
               <br />
               <Box opacity={0.5}>
                 <Link fontSize="xs" isExternal href="https://heyshell.xyz/launch">
@@ -116,10 +116,10 @@ export default function IndexPage() {
             </Box>
 
             <Box>
-              <Link isExternal href="https://hypervibes.xyz">
+              <Link isExternal href="https://hypervibes.xyz" fontSize="md">
                 hypervibes
               </Link>{' '}
-              - generalized public version of the VIBES protocol
+              generalized public version of the VIBES protocol
               <br />
               <Box opacity={0.5}>
                 <Link fontSize="xs" isExternal href="https://docs.hypervibes.xyz">
@@ -146,10 +146,11 @@ export default function IndexPage() {
               <Link
                 isExternal
                 href="https://r-group.notion.site/GROUP-fc0ab00297b348aba76ce8d378386a9e"
+                fontSize="md"
               >
                 r group
               </Link>{' '}
-              - open source metalabel building in the bazaar
+              open source metalabel building in the bazaar
               <br />
               <Box opacity={0.5}>
                 <Link fontSize="xs" isExternal href="https://github.com/R-Group-Devs">
@@ -159,10 +160,10 @@ export default function IndexPage() {
             </Box>
 
             <Box>
-              <Link isExternal href="https://sickvibes.xyz">
+              <Link isExternal href="https://sickvibes.xyz" fontSize="md">
                 vibes
               </Link>{' '}
-              - decentralized token-based art curation protocol
+              decentralized token-based art curation protocol
               <br />
               <Box opacity={0.5}>
                 <Link fontSize="xs" isExternal href="https://docs.sickvibes.xyz">
@@ -180,7 +181,7 @@ export default function IndexPage() {
               </Box>
             </Box>
             <Box>
-              <Link isExternal href="https://morphs.wtf/">
+              <Link isExternal href="https://morphs.wtf/" fontSize="md">
                 boardroom
               </Link>{' '}
               - governance aggregation and interop
@@ -203,7 +204,23 @@ export default function IndexPage() {
               </Box>
             </Box>
             <Box>
-              <Link isExternal href="https://developers.yonomi.com/docs/yonomi-iot-platform/">
+              <Link isExternal href="https://outbanders.com" fontSize="md">
+                outbanders
+              </Link>{' '}
+              emergent patterns ep
+              <br />
+              <Box opacity={0.5}>
+                <Link fontSize="xs" isExternal href="https://outbanders.bandcamp.com/">
+                  bandcamp
+                </Link>{' '}
+              </Box>
+            </Box>
+            <Box>
+              <Link
+                isExternal
+                href="https://developers.yonomi.com/docs/yonomi-iot-platform/"
+                fontSize="md"
+              >
                 yonomi iot platform
               </Link>{' '}
               - smart home developer cloud
