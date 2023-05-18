@@ -12,7 +12,7 @@ export default function IndexPage() {
             <strong>Brandon</strong> is a software architect and technologist in Austin
           </Text>
           <Text>
-            He cofounded{' '}
+            he cofounded{' '}
             <Link isExternal href="https://metalabel.xyz">
               Metalabel
             </Link>
@@ -30,7 +30,7 @@ export default function IndexPage() {
               twitter
             </Link>
           </Stack>
-          <Text pt={4}>RECENT WORK</Text>
+          <Text pt={4}>projects</Text>
           <Stack fontSize="md">
             <Box>
               <Link isExternal href="https://metalabel.xyz" fontSize="lg">
