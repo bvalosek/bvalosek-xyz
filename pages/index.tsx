@@ -39,6 +39,9 @@ export default function IndexPage() {
               cataloging hyperstructure and record minting protocol
               <br />
               <Box opacity={0.5}>
+                <Link fontSize="xs" isExternal href="https://www.metalabel.xyz/what-is-metalabel">
+                  ???
+                </Link>{' '}
                 <Link
                   fontSize="xs"
                   isExternal
