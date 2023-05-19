@@ -85,7 +85,7 @@ export default function IndexPage() {
               <Link isExternal href="https://heyshell.xyz/" fontSize="lg">
                 heyshell
               </Link>{' '}
-              operating system for NFTs apps implementing open products
+              operating system for NFT apps implementing open products
               <br />
               <Box opacity={0.5}>
                 <Link fontSize="xs" isExternal href="https://heyshell.xyz/launch">
