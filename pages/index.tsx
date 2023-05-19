@@ -1,8 +1,32 @@
 import { Box, Container, Link, Stack, Text } from '@chakra-ui/react';
+import { Helmet } from 'react-helmet';
 
 export default function IndexPage() {
   return (
     <>
+      <Helmet>
+        <title>Brandon Valosek</title>
+        <link rel="canonical" href="https://www.bvalosek.xyz" />
+        <meta property="og:site_name" content="bvalosek.xyz" />
+        <meta property="og:title" content="Brandon Valosek" />
+        <meta property="og:url" content="https://www.bvalosek.xyz" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:description"
+          content="Brandon Valosek's homepage. Metalabel cofounder, software architect, and experimental engineer"
+        />
+        <meta name="twitter:title" content="Brandon Valosek" />
+        <meta name="twitter:url" content="https://www.bvalosek.xyz" />
+        <meta name="twitter:card" content="summary" />
+        <meta
+          name="twitter:description"
+          content="Brandon Valosek's homepage. Metalabel cofounder, software architect, and experimental engineer"
+        />
+        <meta
+          name="description"
+          content="Brandon Valosek's homepage. Metalabel cofounder, software architect, and experimental engineer"
+        />
+      </Helmet>
       <Container mt={10}>
         <Stack>
           <Link href="https://bvalosek.xyz" fontSize="md">
@@ -12,7 +36,7 @@ export default function IndexPage() {
             <strong>Brandon</strong> is a software architect and technologist in Austin
           </Text>
           <Text>
-            he cofounded{' '}
+            He cofounded{' '}
             <Link isExternal href="https://metalabel.xyz">
               Metalabel
             </Link>
@@ -34,7 +58,7 @@ export default function IndexPage() {
           <Stack fontSize="md">
             <Box>
               <Link isExternal href="https://metalabel.xyz" fontSize="lg">
-                metalabel protocol
+                Metalabel Protocol
               </Link>{' '}
               cataloging hyperstructure and record minting protocol
               <br />
@@ -67,7 +91,7 @@ export default function IndexPage() {
             </Box>
             <Box>
               <Link isExternal href="https://morphs.wtf/" fontSize="lg">
-                morphs
+                Morphs
               </Link>{' '}
               open NFT project set in a science fantasy universe
               <br />
@@ -83,7 +107,7 @@ export default function IndexPage() {
             </Box>
             <Box>
               <Link isExternal href="https://heyshell.xyz/" fontSize="lg">
-                heyshell
+                shell
               </Link>{' '}
               operating system for NFT apps implementing open products
               <br />
@@ -120,7 +144,7 @@ export default function IndexPage() {
 
             <Box>
               <Link isExternal href="https://hypervibes.xyz" fontSize="lg">
-                hypervibes
+                HyperVIBES
               </Link>{' '}
               generalized public version of the VIBES protocol
               <br />
@@ -151,7 +175,7 @@ export default function IndexPage() {
                 href="https://r-group.notion.site/GROUP-fc0ab00297b348aba76ce8d378386a9e"
                 fontSize="lg"
               >
-                r group
+                R-Group
               </Link>{' '}
               open source metalabel building in the bazaar
               <br />
@@ -164,7 +188,7 @@ export default function IndexPage() {
 
             <Box>
               <Link isExternal href="https://sickvibes.xyz" fontSize="lg">
-                vibes
+                VIBES
               </Link>{' '}
               decentralized token-based art curation protocol
               <br />
@@ -185,7 +209,7 @@ export default function IndexPage() {
             </Box>
             <Box>
               <Link isExternal href="https://developers.boardroom.io/" fontSize="lg">
-                boardroom
+                Boardroom
               </Link>{' '}
               - governance aggregation and interop
               <br />
@@ -208,7 +232,7 @@ export default function IndexPage() {
             </Box>
             <Box>
               <Link isExternal href="https://outbanders.com" fontSize="lg">
-                outbanders
+                Outbanders
               </Link>{' '}
               emergent patterns ep
               <br />
@@ -224,9 +248,9 @@ export default function IndexPage() {
                 href="https://developers.yonomi.com/docs/yonomi-iot-platform/"
                 fontSize="lg"
               >
-                yonomi iot platform
+                Yonomi Platform
               </Link>{' '}
-              - smart home developer cloud
+              - iot developer cloud
               <br />
               <Box opacity={0.5}>
                 <Link
