@@ -1,4 +1,4 @@
-import { Box, Center, Container, Link, Stack, Text } from '@chakra-ui/react';
+import { Box, Container, Link, Stack, Text } from '@chakra-ui/react';
 
 export default function IndexPage() {
   return (
