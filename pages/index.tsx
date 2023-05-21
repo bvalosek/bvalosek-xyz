@@ -1,4 +1,4 @@
-import { Box, Container, Link, Stack, Text } from '@chakra-ui/react';
+import { Box, Center, Container, Link, Stack, Text } from '@chakra-ui/react';
 import { Helmet } from 'react-helmet';
 
 export default function IndexPage() {
@@ -27,13 +27,13 @@ export default function IndexPage() {
           content="Brandon Valosek's homepage. Metalabel cofounder, software architect, and experimental engineer"
         />
       </Helmet>
-      <Container mt={10}>
+      <Container mt={4}>
         <Stack>
           <Link href="https://bvalosek.xyz" fontSize="md">
             bvalosek.xyz
           </Link>
-          <Text pt={4}>
-            <strong>Brandon</strong> is a software architect and technologist in Austin
+          <Text pt={1}>
+            <strong>Brandon</strong> is a software architect and platform designer in Austin
           </Text>
           <Text>
             He cofounded{' '}
@@ -43,18 +43,30 @@ export default function IndexPage() {
             , a project that creates resources and tools for collectives that release creative work
             together
           </Text>
+          <Link
+            color="yellow"
+            fontSize="xs"
+            isExternal
+            href="https://www.metalabel.xyz/what-is-metalabel"
+            p={1}
+          >
+            what is a metalabel?
+          </Link>{' '}
+          k
           <Stack direction="row" gap={3}>
-            <Link isExternal href="https://staging.bsky.app/profile/bvalosek.xyz">
-              bsky
-            </Link>
             <Link isExternal href="https://github.com/bvalosek">
               github
+            </Link>
+            <Link isExternal href="https://staging.bsky.app/profile/bvalosek.xyz">
+              bsky
             </Link>
             <Link isExternal href="https://twitter.com/bvalosek">
               twitter
             </Link>
           </Stack>
-          <Text pt={4}>projects</Text>
+          <Text pt={4} fontSize="sm">
+            PROJECTS
+          </Text>
           <Stack fontSize="md">
             <Box>
               <Link isExternal href="https://metalabel.xyz" fontSize="lg">
@@ -63,9 +75,6 @@ export default function IndexPage() {
               cataloging hyperstructure and record minting protocol
               <br />
               <Box opacity={0.5}>
-                <Link fontSize="xs" isExternal href="https://www.metalabel.xyz/what-is-metalabel">
-                  ???
-                </Link>{' '}
                 <Link
                   fontSize="xs"
                   isExternal
@@ -211,7 +220,7 @@ export default function IndexPage() {
               <Link isExternal href="https://developers.boardroom.io/" fontSize="lg">
                 Boardroom
               </Link>{' '}
-              - governance aggregation and interop
+              governance aggregation and interop
               <br />
               <Box opacity={0.5}>
                 <Link
@@ -230,6 +239,27 @@ export default function IndexPage() {
                 </Link>{' '}
               </Box>
             </Box>
+
+            <Box>
+              <Link
+                isExternal
+                href="https://developers.yonomi.com/docs/yonomi-iot-platform/"
+                fontSize="lg"
+              >
+                Yonomi Platform
+              </Link>{' '}
+              iot developer cloud
+              <br />
+              <Box opacity={0.5}>
+                <Link
+                  fontSize="xs"
+                  isExternal
+                  href="https://developers.yonomi.com/docs/traits-overview/"
+                >
+                  traits.framework
+                </Link>{' '}
+              </Box>
+            </Box>
             <Box>
               <Link isExternal href="https://outbanders.com" fontSize="lg">
                 Outbanders
@@ -242,34 +272,16 @@ export default function IndexPage() {
                 </Link>{' '}
               </Box>
             </Box>
-            <Box>
-              <Link
-                isExternal
-                href="https://developers.yonomi.com/docs/yonomi-iot-platform/"
-                fontSize="lg"
-              >
-                Yonomi Platform
-              </Link>{' '}
-              - iot developer cloud
-              <br />
-              <Box opacity={0.5}>
-                <Link
-                  fontSize="xs"
-                  isExternal
-                  href="https://developers.yonomi.com/docs/traits-overview/"
-                >
-                  traits.framework
-                </Link>{' '}
-              </Box>
-            </Box>
           </Stack>
-          <Stack color="yellow">
-            <Text fontFamily="mono" fontSize="xs" textAlign="right" mt={20} mb={20}>
-              did:mld:k3kw76syyfivtxedl34fw3ja
-              <br />
-              did:plc:rhq6wagcwtaehl7uddekfcps
-            </Text>
-          </Stack>
+          <Center>
+            <Stack color="yellow">
+              <Text fontFamily="mono" fontSize="xs" textAlign="right" mt={8} mb={32}>
+                did:mld:k3kw76syyfivtxedl34fw3ja
+                <br />
+                did:plc:rhq6wagcwtaehl7uddekfcps
+              </Text>
+            </Stack>
+          </Center>
         </Stack>
       </Container>
     </>
