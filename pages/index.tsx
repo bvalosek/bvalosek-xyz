@@ -37,7 +37,7 @@ export default function IndexPage() {
           </Text>
           <Text>
             He cofounded{' '}
-            <Link isExternal href="https://metalabel.xyz">
+            <Link isExternal href="https://metalabel.com">
               Metalabel
             </Link>
             , a project that creates resources and tools for collectives that release creative work
@@ -47,12 +47,11 @@ export default function IndexPage() {
             color="yellow"
             fontSize="xs"
             isExternal
-            href="https://www.metalabel.xyz/what-is-metalabel"
+            href="https://www.metalabel.com/about"
             p={1}
           >
-            what is a metalabel?
+            what is metalabel?
           </Link>{' '}
-          k
           <Stack direction="row" gap={3}>
             <Link isExternal href="https://github.com/bvalosek">
               github
@@ -69,7 +68,7 @@ export default function IndexPage() {
           </Text>
           <Stack fontSize="md">
             <Box>
-              <Link isExternal href="https://metalabel.xyz" fontSize="lg">
+              <Link isExternal href="https://metalabel.com" fontSize="lg">
                 Metalabel Protocol
               </Link>{' '}
               cataloging hyperstructure and record minting protocol
@@ -276,7 +275,7 @@ export default function IndexPage() {
           <Center>
             <Stack color="yellow">
               <Text fontFamily="mono" fontSize="xs" textAlign="right" mt={8} mb={32}>
-                did:mld:k3kw76syyfivtxedl34fw3ja
+                did:mlr:9830okxh3b2bzh2x3kq6fbbe
                 <br />
                 did:plc:rhq6wagcwtaehl7uddekfcps
               </Text>
